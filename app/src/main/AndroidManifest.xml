@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Posobie"
+        tools:targetApi="31">
+        <activity
+            android:name=".Finish_4"
+            android:exported="false" />
+        <activity
+            android:name=".Finish_3"
+            android:exported="false" />
+        <activity
+            android:name=".Finish_2"
+            android:exported="false" />
+        <activity
+            android:name=".Finish_1"
+            android:exported="false" />
+        <activity
+            android:name=".test_blok4"
+            android:exported="false" />
+        <activity
+            android:name=".test_blok3"
+            android:exported="false" />
+        <activity
+            android:name=".test_blok2"
+            android:exported="false" />
+        <activity
+            android:name=".test_blok1"
+            android:exported="false" />
+        <activity
+            android:name=".search3"
+            android:exported="false" />
+        <activity
+            android:name=".Gibs"
+            android:exported="false" />
+        <activity
+            android:name=".Entrop"
+            android:exported="false" />
+        <activity
+            android:name=".Ental"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".search2"
+            android:exported="false" />
+        <activity
+            android:name=".search1"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".blok4"
+            android:exported="false" />
+        <activity
+            android:name=".blok3"
+            android:exported="false" />
+        <activity
+            android:name=".blok2"
+            android:exported="false" />
+        <activity
+            android:name=".blok1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blok1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+    android:layout_margin="3dp"
+    android:text="Термодинамика – это наука, изучающая законы обмена энергией между системой и окружающей средой. Химическая термодинамика изучает фазовые превращения энергии в ходе химических реакций и физико-химических процессов.\n">
+</TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:text="Процесс – переход системы из одного состояния в другое\n">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Химический процесс – превращение одних веществ в другие\n\n
+Любой объект, который является предметом рассмотрения с точки зрения превращения энергии, называют термодинамической системой.\n
+">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:text="Термодинамическая система ― тело или группа тел, отделенная от окружающей среды реальной или воображаемой поверхностью раздела.\n">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Существует несколько типов термодинамических систем: \n1.	Открытая (происходит обмен энергией и веществом с окружающей средой)\n2.	Закрытая (происходит обмен энергией, но не происходит обмена веществом)\n3.	Изолированная (система не обменивается с окружающей средой ни энергией, ни веществом)">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:text="Изолированных систем в природе не существует."></TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="3dp"
+        android:src="@drawable/ter1blok">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:text="Существуют величины, характеризующие какое-либо свойство вещества или процесса, назывыемые параметрами. "></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Параметры системы могут быть экстенсивными (они пропорциональны количеству вещества системы): m, V, внутренняя энергия, количество вещества (n) и тд.
+И интенсивными (не зависят от количества вещества в системе): p, t, вязкость, плотность и тд.">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:text="Совокупность параметров определяет состояние термодинамической системы."></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Термодинамический процесс― переход системы из одного состояния в другое, сопровождающийся изменением хотя бы одного из параметров системы.\n
+
+Типы термодинамических процессов\n
+
+1.	изотермические (T = const),\n
+2.	изобарные (p = const),\n
+3.	изохорные (V = const);\n
+4.	изобарно-изотермические (p, t = const),\n
+5.	изохорно-изотермические (V, t = const);\n
+6.	самопроизвольные и несамопроизвольные;\n
+7.	обратимые и необратимые процессы.\n
+">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Функции состояния ― экстенсивные параметры, изменение которых (∆) зависит только от конечного и начального состояния системы.\n
+Функции состояния термодинамической системы ― внутренняя энергия (U), энтальпия (H), энтропия (S), энергия Гиббса (G).
+"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:text="∆ = конечное значение параметра минус начальное значение параметра."></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Энергия (E) ― количественная мера интенсивности различных форм взаимодействия и перемещения частиц в термодинамической системе (кДж/моль).\n"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Теплота(Q) – мера энергии, переходящей от одного тела к другому в процессе теплопередачи.
+\n"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:text="Термодинамическая работа(А) – способ передачи энергии, связанный с изменением внешних параметров системы. "></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тест по первому блоку"
+        android:id="@+id/test_1"></Button>
+
+</LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

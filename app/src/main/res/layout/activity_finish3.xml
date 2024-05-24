@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finish_1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ваш результат:"
+                android:padding="10dp"
+                android:id="@+id/res"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Проверить ответы"
+                android:id="@+id/prov"></Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Ответы на тест:\n1. Второе начало термодинамики"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/r1"
+                android:text="• В изолированной системе (U-const, V-const, ΔQ=0) самопроизвольно протекают
+только те процессы, которые сопровождаются увеличением энтропии"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w1"
+                android:text="• абсолютное значение энтропии вещества при стандартных условиях в любом
+данном агрегатном состоянии"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w2"
+                android:text="• Движущей силой химической реакции считается максимальная работа, которую
+можно совершить за счет химической реакции"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="2. Макроопределение энтропии"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/r2"
+                android:text="• ∆S = Qобр/Т и ∆S > Q необр/Т"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w3"
+                android:text="• S=k lnW "></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w4"
+                android:text="• ΔSх.р.=∑Sпродуктов реакции - ∑Sисх.в-в"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="3. Термодинамическая вероятность W состояния системы"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/r3"
+                android:text="• это число способов, которыми может быть реализовано данное состояние
+макроскопической системы, или число микросостояний, осуществляющих
+данное макросостояние (W >> 1)"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w6"
+                android:text="• абсолютное значение энтропии вещества при стандартных условиях в
+любом данном агрегатном состоянии"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w5"
+                android:text="• В изохорно-изотермическом процессе полезная работа определяется
+изменением энергии Гельмгольца, а условием самопроизвольности
+процесса является ΔF&lt;0"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="4. Энергия Гиббса"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/r4"
+                android:text="• Функция состояния, связывающая энтальпию и энтропию"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w7"
+                android:text="• абсолютное значение энтропии вещества"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w8"
+                android:text="• термодинамическая функция состояния при условии постоянства объема и
+температуры"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="5. Энергия Гельмгольца"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w9"
+                android:text="• Функция состояния, связывающая энтальпию и энтропию"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w10"
+                android:text="• Термодинамическая вероятность W состояния системы"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/r5"
+                android:text="• термодинамическая функция состояния при условии постоянства объема и
+температуры"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="6. Формула, определяющая энергию Гельмголь"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w11"
+                android:text="• ΔGох.р. = ∑ΔGоf (конечн.продуктов) - ∑ΔGоf(исх.в-в)"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/r6"
+                android:text="• F ≡ U-TS"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/w12"
+                android:text="• Δ G = ΔН-TΔS"></TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Выбрать другой блок"
+                android:id="@+id/back"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

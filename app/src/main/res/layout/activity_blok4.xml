@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".blok4"
+            android:orientation="vertical"
+            android:layout_margin="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="ТРЕТИЙ ЗАКОН ТЕРМОДИНАМИКИ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В идеальном кристалле при абсолютном нуле атомы должны находиться в единственном самом низком энергетическом состоянии, вероятность которого равна единице, а энтропия соответственно нулю."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="При 0К W=1 lnW=0 Sкристаллов=0 "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Согласно третьему закону термодинамики энтропия S любой физической системы при стремлении температуры (Т) к абсолютному нулю не зависит от параметров системы (давление, плотность, фаза) и остается неизменной. Закон был установлен В. Нернстом в 1906 году. Третье начало термодинамики позволяет находить абсолютное значения энтропии, что нельзя сделать в рамках классической термодинамики на основе первого и второго начал термодинамики. В классической термодинамике энтропия может быть определена лишь с точностью до произвольной аддитивной постоянной S0, что практически не мешает большинству термодинамических исследований, так как реально измеряется разность энтропий в различных состояниях. Согласно третьему началу термодинамики, при температуре, стремящейся к нулю, разность энтропий стремится к нулю.\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Из третьего начала термодинамики следует, что абсолютного нуля температуры нельзя достигнуть ни в каком конечном процессе, связанном с изменением энтропии, к нему можно лишь асимптотически приближаться, поэтому третье начало термодинамики иногда формулируют как принцип недостижимости абсолютного нуля температуры. Из третьего начала термодинамики вытекает ряд термодинамических следствий о свойствах веществ вблизи абсолютного нуля. Так, обращаются в нуль удельные теплоемкости при постоянном объеме (Сv) и при постоянном давлении (Сp), термический коэффициент расширения и давления. Кажущиеся противоречия третьего начала термодинамики (ненулевое значение энтропии у ряда веществ при абсолютном нуле) связаны с метастабильными состояниями вещества, которые нельзя считать термодинамически равновесными"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test4"
+        android:text="Тест по четвёртому блоку"></Button>
+</LinearLayout>

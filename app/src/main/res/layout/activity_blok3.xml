@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blok3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Второй закон определяет направление самопроизвольного протекания процессов, в том числе и химических реакций
+\n"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Существует функция состояния, которая с учетом первого закона термодинамики позволяет предсказать направление протекания процесса в изолированных системах.\n Такой функцией состояния является энтропия (S)."/>
+            <TextView
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2й закон термодинамики"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В изолированной системе (U-const, V-const, ΔQ=0) самопроизвольно протекают только те процессы, которые сопровождаются увеличением энтропии."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Энтропия (макроопределение)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="∆S = Qобр/Т и ∆S > Q необр/Т"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q-поглощаемое тепло\nТ-постоянная температура\n
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Поскольку энтропия является функцией состояния, то ее изменение не зависит от пути перехода системы из одного состояния в другое, а определяется только значениями энтропии для системы в исходном и конечном состояниях. Размерность энтропии [S] =Дж/моль ⋅К.\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Больцман вывел соотношение, связывающее абсолютную энтропию (S) с числом микроскопических состояний системы, соответствующих данному макроскопическому состоянию (или термодинамической вероятностью W):"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="S=klnW"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="k=1,38·10–23Дж/К (постоянная Больцмана)\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Термодинамическая вероятность W состояния системы – это число способов, которыми может быть реализовано данное состояние макроскопической системы, или число микросостояний, осуществляющих данное макросостояние (W >> 1)\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000"
+                android:text="Все самопроизвольно протекающие процессы в замкнутой системе, приближающие систему к состоянию равновесия и сопровождающиеся ростом энтропии, направлены в сторону увеличения вероятности состояния (Больцман)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="Стандартная энтропия вещества"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="абсолютное значение энтропии вещества при стандартных условиях в любом данном агрегатном состоянии\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Энтропии веществ не рассчитывают на основании уравнения Больцмана, их определяют по уравнениям классической термодинамики с учетом теплоемкостей веществ и теплот фазовых переходов\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Энтропия-функция состояния, поэтому"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="ΔSх.р.=∑Sпродуктов реакции - ∑Sисх.в-в\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="ЭНЕРГИЯ ГИББСА\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Функция состояния, связывающая энтальпию и энтропию – энергия Гиббса (G)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="G ≡ Н-TS"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Движущей силой химической реакции считается максимальная работа, которую можно совершить за счет химической реакции\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Таким образом, величина ΔG характеризует ту часть изменения внутренней энергии, которая может быть превращена в полезную работу\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blok31"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Энергия Гиббса – функция состояния, поэтому"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="ΔGох.р. = ∑ΔGоf (конечн.продуктов) - ∑ΔGоf(исх.в-в)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="При условии постоянства объема и температуры (V-const, T-const) пользуются термодинамической функцией состояния - энергией Гельмгольца"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="F ≡ U-TS"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/block32"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Энергия Гельмгольца – функция состояния, поэтому"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="ΔFох.р. = ∑ΔFоf (конечн.продуктов) - ∑ΔFоf(исх.в-в)\n"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/test3"
+                android:text="Тест по третьему блоку"></Button>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

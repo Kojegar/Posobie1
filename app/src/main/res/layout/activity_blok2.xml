@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blok2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Полная механическая энергия замкнутой системы тел, между которыми действуют только консервативные силы, остается постоянной.">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:scaleType="fitXY"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="I закон  термодинамики">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Теплота, сообщаемая системе извне, расходуется на изменение внутренней энергии и совершение работы">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:scaleType="fitXY"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:gravity="center"
+                android:text="Q=ΔU + A">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="где Q − теплота, выделяющаяся или поглощающаяся при химической реакции, А- термодинамическая работа, ΔU- изменение внутренней энергии. ">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:text="При этом важное значение имеет понятие внутренней энергии. Каждая система характеризуется ее внутренней энергией\n"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Внутренняя энергия системы ( U ) представляет собой сумму кинетической и потенциальной энергии всех частиц, составляющих данную систему (без учета кинетической и потенциальной энергии системы в целом) .">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="“U” – сумма различных видов энергии:\n
+U = Е (Е пост. + Е вр) + Е + Е + Е + Е + Е ….">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Как видно, “U” зависит от многих переменных, поэтому определение абсолютных значений “U” затруднено, из-за неопределенности точки начала отсчета, для которого бы U = 0. Поэтому на практике рассматривают изменение внутренней энергии, то есть величину ( ∆U ). В изолированной системе внутренняя энергия (U) постоянна, т.е. ∆U = 0."></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Q и А проявляются только при протекании процессов и являются лишь формами передачи энергии, и ни в коем случае не являются самой энергией. В отличие от U, понятия Q и А относятся не к системам, а к процессам.\n"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Теплота(Q) – мера энергии, переходящей от одного тела к другому в процессе теплопередачи.
+\n"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Энтальпия (H)― функция состояния термодинамической системы, изменение которой (изменение теплосодержания ∆H) представляет собой тепловой эффект процесса (Qp)"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:gravity="center"
+                android:text="∆H = Qp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="где ∆H – изменение энтальпии"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:text="Правило знаков"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="@string/blok2"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Под стандартной теплотой образования понимают тепловой эффект реакции образования одного моля вещества из простых веществ, его составляющих, находящихся в устойчивых стандартных состояниях."></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:text="Стандартная энтальпия образования простых веществ принимается равной нулю."></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:text="Стандартные условия:"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="●	устойчивая модификация (жидкое, твердое)\n
+●	гипотетическое состояние идеального газа (газы)\n
+●	Давление (р) = 1 атм. = 101325 Па = 760 мм рт.ст.\n
+●	Температура (Т)= 298.15 К
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:text="Закон Гесса:"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Тепловой эффект химических реакций зависит только от вида и состояния исходных веществ и конечных продуктов, но не зависит от пути перехода. (Следствие 1го закона термодинамики)"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:text="Следствие из закона Гесса:"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:text="Тепловой эффект реакции равен разности между суммой теплот образования всех продуктов реакции и суммой теплот образования всех соответствующими коэффициентами реагентов, взятых с стехиометрическими коэффициентами. "></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:text="ΔНх.р. = ∑ΔНf (конечн.продуктов) - ∑ΔНf(исх.в-в)"></TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тест по второму блоку"
+                android:id="@+id/test_2"></Button>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
